@@ -53,7 +53,6 @@
                     <depends>
                         <field id="is_enabled">1</field>
                     </depends>
-                    <validate>validate-number</validate>
                 </field>
             </group>
             <group id="google" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -89,45 +88,8 @@
                     <depends>
                         <field id="is_enabled">1</field>
                     </depends>
-                    <validate>validate-number</validate>
                 </field>
             </group>
-            <!-- <group id="pinterest" translate="label" type="text" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Pinterest</label>
-                <field id="is_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Create app <a href="https://developers.pinterest.com/apps/" target="_bank">here</a>]]></comment>
-                </field>
-                <field id="app_id" translate="label" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Client ID</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="app_secret" translate="label" type="password" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Client Secret</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="redirect_url" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>Magepow\SocialLogin\Model\System\RedirectUrl</frontend_model>
-                    <label>REDIRECT URIS</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="sort_order" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Sort Order</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                    <validate>validate-number</validate>
-                </field>
-            </group> -->
             <group id="linkedin" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>LinkedIn</label>
                 <field id="is_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -161,7 +123,6 @@
                     <depends>
                         <field id="is_enabled">1</field>
                     </depends>
-                    <validate>validate-number</validate>
                 </field>
             </group>
             <group id="twitter" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -232,147 +193,8 @@
                     <depends>
                         <field id="is_enabled">1</field>
                     </depends>
-                    <validate>validate-number</validate>
                 </field>
             </group>
-            <!-- <group id="foursquare" translate="label" type="text" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Foursquare</label>
-                <field id="is_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Create app <a href="https://www.foursquare.com/oauth/" target="_bank">here</a>]]></comment>
-                </field>
-                <field id="app_id" translate="label" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Client ID</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="app_secret" translate="label" type="password" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Client Secret</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="redirect_url" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>Magepow\SocialLogin\Model\System\RedirectUrl</frontend_model>
-                    <label>Callback URL</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="sort_order" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Sort Order</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                    <validate>validate-number</validate>
-                </field>
-            </group> -->
-            <!-- <group id="vkontakte" translate="label" type="text" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Vkontakte</label>
-                <field id="is_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Create app <a href="https://new.vk.com/dev" target="_bank">here</a>]]></comment>
-                </field>
-                <field id="app_id" translate="label" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Application ID</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="app_secret" translate="label" type="password" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Secure Key</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="sort_order" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Sort Order</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                    <validate>validate-number</validate>
-                </field>
-            </group> -->
-            <!-- <group id="live" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Live</label>
-                <field id="is_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Create app <a href="https://account.live.com/developers/applications/create" target="_bank">here</a>]]></comment>
-                </field>
-                <field id="app_id" translate="label" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Client ID</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="app_secret" translate="label" type="password" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Client Secret</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="redirect_url" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>Magepow\SocialLogin\Model\System\RedirectUrl</frontend_model>
-                    <label>Callback URL</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="sort_order" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Sort Order</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                    <validate>validate-number</validate>
-                </field>
-            </group> -->
-            <!-- <group id="zalo" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Zalo</label>
-                <field id="is_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment><![CDATA[Create app <a href="https://developers.zalo.me/createapp" target="_bank">here</a>]]></comment>
-                </field>
-                <field id="app_id" translate="label" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Application ID</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="app_secret" translate="label" type="password" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Application secret key</label>
-                    <validate>required-entry</validate>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="redirect_url" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <frontend_model>Magepow\SocialLogin\Model\System\RedirectUrl</frontend_model>
-                    <label>Callback URL</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                </field>
-                <field id="sort_order" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Sort Order</label>
-                    <depends>
-                        <field id="is_enabled">1</field>
-                    </depends>
-                    <validate>validate-number</validate>
-                </field>
-            </group> -->
         </section>
     </system>
 </config>
