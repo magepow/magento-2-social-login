@@ -5,11 +5,7 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\Store\Model\ScopeInterface;
 use Magento\Store\Model\Store;
 use Magepow\SocialLogin\Helper\Data as HelperData;
-// use Magepow\SocialLogin\Model\Providers\Amazon;
-// use Magepow\SocialLogin\Model\Providers\GitHub;
 use Magepow\SocialLogin\Model\Providers\Instagram;
-// use Magepow\SocialLogin\Model\Providers\Vkontakte;
-// use Magepow\SocialLogin\Model\Providers\Zalo;
 
 class Social extends HelperData
 {
@@ -67,11 +63,7 @@ class Social extends HelperData
         $apiData = [
             'facebook'  => ['trustForwarded' => false, 'scope' => 'email, public_profile'],
             'linkedin'  => ['scope' => 'r_emailaddress,r_liteprofile'],
-            // 'Vkontakte' => ['wrapper' => ['class' => Vkontakte::class]],
-            // 'Github'    => ['wrapper' => ['class' => GitHub::class]],
-            // 'Amazon'    => ['wrapper' => ['class' => Amazon::class]],
-            'google'    => ['scope' => 'profile email'],
-            // 'Zalo'      => ['wrapper' => ['class' => Zalo::class], 'scope' => 'access_profile']
+            'google'    => ['scope' => 'profile email']
         ];
 
         if ($type && array_key_exists($type, $apiData)) {
@@ -209,15 +201,8 @@ class Social extends HelperData
             'facebook'   => 'Facebook',
             'google'     => 'Google',
             'twitter'    => 'Twitter',
-            // 'amazon'     => 'Amazon',
             'linkedin'   => 'LinkedIn',
-            // 'yahoo'      => 'Yahoo',
-            // 'foursquare' => 'Foursquare',
-            // 'pinterest'  => 'Pinterest',
             'reddit'     => 'Reddit',
-            // 'github'     => 'Github',
-            // 'live'       => 'Live',
-            // 'zalo'       => 'Zalo'
         ];
     }
 }

@@ -3,7 +3,6 @@
     <body>
         <referenceContainer name="content">
             <block class="Magepow\SocialLogin\Block\Social" before="-" name="social-login-popup-authentication-social-create" ifconfig="sociallogin/general/enabled" template="Magepow_SocialLogin::form/social.phtml">
-                <!-- <block class="Magepow\SocialLogin\Block\Popup" name="social-login-request-info" before="-" as="request.info" template="Magepow_SocialLogin::popup/form/email.phtml"/> -->
             </block>
         </referenceContainer>
     </body>

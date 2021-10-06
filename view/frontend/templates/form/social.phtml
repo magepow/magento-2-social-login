@@ -10,7 +10,7 @@ if ($block->canShow() && sizeof($availableSocials)):
                 <div class="actions-toolbar social-btn social-btn-actions-toolbar <?= $key ?>-login">
                     <a class="btn btn-block btn-social btn-<?= $block->getBtnKey($key) ?>"
                        data-mage-init='{"socialProvider": {"url": "<?= $social['login_url'] ?>", "label": "<?= __('Login By %1', $social['label']) ?>"}}'>
-                        <span class="fa fa-<?= $block->getBtnKey($key) ?>"></span>
+                        
                         <?= __('Sign in with %1', $social['label']) ?>
                     </a>
                 </div>
