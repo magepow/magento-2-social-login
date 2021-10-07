@@ -35,7 +35,7 @@ Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Social Login`
 Facebook Login dialog will be shown after clicking on Sign in with Facebook button.
 
 For more details on how to login using other media accounts and how to get the API, please take a look at this [documentation](https://docs.alothemes.com/m2/extension/sociallogin/#howto_use_extension).
-### [How does Magento 2 Categories work?](https://www.youtube.com/watch?v=k3A7PBh-NbQ&lc=UgzCFSLUqlD6cl__PH54AaABAg)
+
 ## Donation
 
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
