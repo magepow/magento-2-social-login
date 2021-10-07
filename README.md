@@ -21,17 +21,17 @@ Go to `Admin Panel > Stores > Settings > Configuration > Magepow > Social Login`
  * Enable - Select “Yes” to allow customers sign in quickly via social networking sites they are using.
  * Show Social Login Buttons on - Select display page(s) with social login buttons.
  
-![config-module-img](https://github.com/magepow/magento-2-social-login/blob/master/media/general.png)
+![config-module-img](https://github.com/magepow/magento-2-social-login/blob/main/media/general.png)
 
 #### Facebook Sign In
  * Enable - Select “Yes” to show Sign in with Facebook button
  * Sort Order - The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
  * Instruction to create Facebook API (getting Facebook App ID and Facebook App Secret) can be found [here](https://docs.alothemes.com/m2/extension/sociallogin/how-to-configure-facebook-api.html).
  
-![config-module-img](https://github.com/magepow/magento-2-social-login/blob/master/media/facebook_tab.png)
+![config-module-img](https://github.com/magepow/magento-2-social-login/blob/main/media/facebook_tab.png)
 
 ##### Login using Facebook account
- ![config-module-img](https://github.com/magepow/magento-2-social-login/blob/master/media/login_facebook.png)
+![config-module-img](https://github.com/magepow/magento-2-social-login/blob/main/media/login_facebook.png)
 Facebook Login dialog will be shown after clicking on Sign in with Facebook button.
 
 For more details on how to login using other media accounts and how to get the API, please take a look at this [documentation](https://docs.alothemes.com/m2/extension/sociallogin/#howto_use_extension).
