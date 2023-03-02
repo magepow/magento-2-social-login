@@ -1,3 +1,5 @@
+[<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
+
 ## Magento 2 Social Login Extension Free
 **Magento 2 Social Login Extension Free** allows customers to create or log in to an account quickly and conveniently without going through all the complicated and unnecessary registration steps. Support login with famous channels like Facebook, Google, LinkedIn, Twitter, Reddit.
 
