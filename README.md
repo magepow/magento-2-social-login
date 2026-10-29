@@ -3,6 +3,11 @@
 ## Magento 2 Social Login Extension Free
 **Magento 2 Social Login Extension Free** allows customers to create or log in to an account quickly and conveniently without going through all the complicated and unnecessary registration steps. Support login with famous channels like Facebook, Google, LinkedIn, Twitter, Reddit.
 
+[![Latest Stable Version](https://poser.pugx.org/magepow/social-login/v/stable)](https://packagist.org/packages/magepow/social-login)
+[![Total Downloads](https://poser.pugx.org/magepow/social-login/downloads)](https://packagist.org/packages/magepow/social-login)
+[![Daily Downloads](https://poser.pugx.org/magepow/social-login/d/daily)](https://packagist.org/packages/magepow/social-login)
+
+
 ### 1. Highlight Features
  * Quickly login step with five most common social channels
  * Easy to change the personal information after registering
